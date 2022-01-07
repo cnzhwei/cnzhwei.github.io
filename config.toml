@@ -1,4 +1,0 @@
-baseURL = 'https://cnzhwei.github.io/'
-languageCode = 'zh-cn'
-title = 'CNzhwei page'
-theme = "beautifulhugo"
