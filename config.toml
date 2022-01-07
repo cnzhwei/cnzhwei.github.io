@@ -1,0 +1,4 @@
+baseURL = 'http://example.org/'
+languageCode = 'zh-cn'
+title = 'CNzhwei page'
+theme = "beautifulhugo"
