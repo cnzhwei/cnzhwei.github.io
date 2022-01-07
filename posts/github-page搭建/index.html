@@ -130,15 +130,15 @@ Settings → Secrets →New
 <li><code>cnzhwei.github.io.source</code> 用于存放网站源markdown文件，属性为private</li>
 </ul>
 <p>下图为<code>cnzhwei.github.io</code>创建截图：</p>
-<p><img src=image/image.png alt></p>
+<p><img src=../image/image.png alt></p>
 <h3 id=11-加入公钥>1.1 加入公钥</h3>
 <p>将本地公钥（一般位置在：<code>C:\Users\``**[yourname]**``\.ssh\id_rsa.pub</code>）的内容添加进仓库中（没有公钥可百度搜索：<code>git生成公钥</code>），两个仓库都添加</p>
 <p><code>Settings </code>→ <code>Deploy keys</code> →<code>Add new</code></p>
-<p><img src=image/image_1.png alt></p>
+<p><img src=../image/image_1.png alt></p>
 <h3 id=12-添加密钥>1.2 添加密钥</h3>
 <p>将本地公钥（一般位置在：<code>C:\Users\``**[yourname]**``\.ssh\id_rsa</code>）的内容添加进仓库中（没有公钥可百度搜索：<code>git生成公钥</code>），只添加source仓库</p>
 <p><code>Settings </code>→ <code>Secrets </code>→<code>New</code></p>
-<p><img src=image/image_2.png alt></p>
+<p><img src=../image/image_2.png alt></p>
 <h3 id=13-下载项目到本地>1.3 下载项目到本地</h3>
 <div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-PowerShell data-lang=PowerShell>git clone git@github.com<span style=color:#960050;background-color:#1e0010>:</span>cnzhwei/cnzhwei.github.io.source.git
 git clone git@github.com<span style=color:#960050;background-color:#1e0010>:</span>cnzhwei/cnzhwei.github.io.git
@@ -150,9 +150,9 @@ git clone git@github.com<span style=color:#960050;background-color:#1e0010>:</sp
 <p>2.1.2 解压文件到C:/hugo</p>
 <p>2.1.3 添加环境变量</p>
 <p>开始菜单搜索“环境变量”，然后点击“编辑环境变量”</p>
-<p><img src=image/image_3.png alt></p>
+<p><img src=../image/image_3.png alt></p>
 <p>然后编辑<code>Path</code>→<code>新建</code></p>
-<p><img src=image/image_4.png alt></p>
+<p><img src=../image/image_4.png alt></p>
 <h3 id=22-新建页面>2.2 新建页面</h3>
 <div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-PowerShell data-lang=PowerShell><span style=color:#75715e>#进入目录</span>
 cd cnzhwei.github.io.source
@@ -167,7 +167,7 @@ hugo new posts/my-first-page.md
 
 <span style=color:#75715e># 本地开启服务</span>
 hugo serve -D
-</code></pre></div><p><img src=image/image_5.png alt></p>
+</code></pre></div><p><img src=../image/image_5.png alt></p>
 <h3 id=31-修改文章内容>3.1 修改文章内容</h3>
 <p>修改<code>posts/my-first-page.md</code></p>
 <div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-Markdown data-lang=Markdown>---
@@ -184,9 +184,9 @@ my first pages
 </ul>
 <h2 id=4-发布>4. 发布</h2>
 <p>进入source仓库，点击<code>actions</code>，然后点击<code>new workflow</code></p>
-<p><img src=image/image_6.png alt></p>
+<p><img src=../image/image_6.png alt></p>
 <p>然后新建一个workflow</p>
-<p><img src=image/image_7.png alt></p>
+<p><img src=../image/image_7.png alt></p>
 <p>添加如下内容，填完完成后，点击左上角绿色的<code>Start commit</code></p>
 <div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-YAML data-lang=YAML><span style=color:#f92672>name</span>: <span style=color:#ae81ff>Deploy Hugo Site to Github Pages on Master Branch</span>
 
