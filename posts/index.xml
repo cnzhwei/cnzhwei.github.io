@@ -6,11 +6,7 @@
     <description>Recent content in Posts on CNzhwei page</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 07 Jan 2022 16:11:53 +0800</lastBuildDate>
-    
-	<atom:link href="https://cnzhwei.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 07 Jan 2022 16:11:53 +0800</lastBuildDate><atom:link href="https://cnzhwei.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Github page搭建</title>
       <link>https://cnzhwei.github.io/posts/github-page%E6%90%AD%E5%BB%BA/</link>
