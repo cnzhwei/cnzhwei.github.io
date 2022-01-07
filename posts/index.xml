@@ -1,21 +1,6 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Posts on CNzhwei page</title>
-    <link>https://cnzhwei.github.io/posts/</link>
-    <description>Recent content in Posts on CNzhwei page</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Fri, 07 Jan 2022 16:11:53 +0800</lastBuildDate><atom:link href="https://cnzhwei.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Github page搭建</title>
-      <link>https://cnzhwei.github.io/posts/github-page%E6%90%AD%E5%BB%BA/</link>
-      <pubDate>Fri, 07 Jan 2022 16:11:53 +0800</pubDate>
-      
-      <guid>https://cnzhwei.github.io/posts/github-page%E6%90%AD%E5%BB%BA/</guid>
-      <description>1. 新建page项目 打开网址：https://github.com/new
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on CNzhwei page</title><link>https://cnzhwei.github.io/posts/</link><description>Recent content in Posts on CNzhwei page</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Fri, 07 Jan 2022 16:11:53 +0800</lastBuildDate><atom:link href="https://cnzhwei.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Github page搭建</title><link>https://cnzhwei.github.io/posts/github-page%E6%90%AD%E5%BB%BA/</link><pubDate>Fri, 07 Jan 2022 16:11:53 +0800</pubDate><guid>https://cnzhwei.github.io/posts/github-page%E6%90%AD%E5%BB%BA/</guid><description>1. 新建page项目 打开网址：https://github.com/new
 新建两个项目：
- cnzhwei.github.io 用于page网站展示，属性为public cnzhwei.github.io.source 用于存放网站源markdown文件，属性为private  下图为cnzhwei.github.io创建截图：
+cnzhwei.github.io 用于page网站展示，属性为public cnzhwei.github.io.source 用于存放网站源markdown文件，属性为private 下图为cnzhwei.github.io创建截图：
 1.1 加入公钥 将本地公钥（一般位置在：C:\Users\``**[yourname]**``\.ssh\id_rsa.pub）的内容添加进仓库中（没有公钥可百度搜索：git生成公钥），两个仓库都添加
 Settings → Deploy keys →Add new
 1.2 添加密钥 将本地公钥（一般位置在：C:\Users\``**[yourname]**``\.ssh\id_rsa）的内容添加进仓库中（没有公钥可百度搜索：git生成公钥），只添加source仓库
@@ -26,8 +11,4 @@ Settings → Secrets →New
 2.1.3 添加环境变量
 开始菜单搜索“环境变量”，然后点击“编辑环境变量”
 然后编辑Path→新建
-2.2 新建页面 #进入目录 cd cnzhwei.github.io.source # 创建站点 hugo new site . --force 3. 内容写作 # 新建一篇文章 hugo new posts/my-first-page.md # 本地开启服务 hugo serve -D 3.</description>
-    </item>
-    
-  </channel>
-</rss>
+2.2 新建页面 #进入目录 cd cnzhwei.github.io.source # 创建站点 hugo new site . --force 3. 内容写作 # 新建一篇文章 hugo new posts/my-first-page.md # 本地开启服务 hugo serve -D 3.</description></item></channel></rss>
